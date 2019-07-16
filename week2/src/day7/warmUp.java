@@ -11,7 +11,7 @@ public class warmUp {
 		
 		int letter= 20; 
 		int pink = 11;
-		int purple= 8;
+		int purple= 5;
 		
 		String name="";
 		
