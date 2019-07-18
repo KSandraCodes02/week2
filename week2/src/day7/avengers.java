@@ -15,7 +15,7 @@ public class avengers {
 		Scanner ecn = new Scanner(System.in);
 		
 		String name =("");
-		String color =("");
+		
 		System.out.println("Enter name");
 		name = ecn.next();
 		System.out.println("What is your favorite color");
@@ -54,7 +54,9 @@ public class avengers {
 		System.out.println(blue);
 		
 		
-		System.out.println("Thank you for participating " + color);
+		System.out.println("Thank you for participating " + name);
+		
+		ecn.close();
 	}
 		
 }
